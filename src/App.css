@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-image: url("https://st3.depositphotos.com/1007566/12747/v/950/depositphotos_127478008-stock-illustration-veterinary-pet-shop-cat-and.jpg");
+  background-repeat: no-repeat;
+  background-size: 35%;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #a6d4ba;
+}
+
+.taaa {
+  backdrop-filter: blur(20px);
+}
+
+.taaa2 {
+  display: inline;
+  width: 50%;
+  float: right;
+}
+
+.bg_fosco{
+  background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.campo1 {
+  float:left;
+}
